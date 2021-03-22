@@ -436,9 +436,13 @@ call s:h("typescriptBoolean", { "fg": s:red, "gui": "italic", "cterm": "italic" 
 call s:h("typescriptOperator", { "fg": s:red, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptConditional", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptFuncKeyword", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
-call s:h("typescriptArrowFunc", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
-call s:h("typescriptArrowFuncArg", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
-
+call s:h("typescriptArrowFunc", { "fg": s:red, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptUnaryOp", { "fg": s:red })
+call s:h("typescriptTernary", { "fg": s:red })
+call s:h("typescriptAssign", { "fg": s:red })
+call s:h("typescriptBinaryOp", { "fg": s:red })
+call s:h("typescriptClassKeyword", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptFuncName", { "fg": s:blue })
 
 " XML
 call s:h("xmlAttrib", { "fg": s:yellow })
