@@ -428,9 +428,15 @@ call s:h("scssVariable", { "fg": s:dark_yellow })
 call s:h("typescriptReserved", { "fg": s:purple })
 call s:h("typescriptEndColons", { "fg": s:white })
 call s:h("typescriptBraces", { "fg": s:white })
-call s:h("typescriptImport", { "fg": s:purple })
-call s:h("typescriptExport", { "fg": s:purple })
-call s:h("typescriptImportType", { "fg": s:purple })
+call s:h("typescriptImport", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptExport", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptImportType", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptVariable", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptBoolean", { "fg": s:red, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptOperator", { "fg": s:red, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptConditional", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptAmbients", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+
 
 " XML
 call s:h("xmlAttrib", { "fg": s:yellow })
