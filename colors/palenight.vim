@@ -435,7 +435,9 @@ call s:h("typescriptVariable", { "fg": s:purple, "gui": "italic", "cterm": "ital
 call s:h("typescriptBoolean", { "fg": s:red, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptOperator", { "fg": s:red, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptConditional", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
-call s:h("typescriptAmbients", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptFuncKeyword", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptArrowFunc", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptArrowFuncArg", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 
 
 " XML
