@@ -451,6 +451,8 @@ call s:h("typescriptInterfaceKeyword", { "fg": s:purple, "gui": "italic", "cterm
 call s:h("typescriptAccessibilityModifier", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptClassStatic", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptAliasKeyword", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptObjectLiteral", { "fg": s:blue, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptObjectLabel", { "fg": s:white, "gui": "italic", "cterm": "italic" })
 
 " XML
 call s:h("xmlAttrib", { "fg": s:yellow })
