@@ -443,6 +443,8 @@ call s:h("typescriptAssign", { "fg": s:red })
 call s:h("typescriptBinaryOp", { "fg": s:red })
 call s:h("typescriptClassKeyword", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptFuncName", { "fg": s:blue })
+call s:h("typescriptFuncCall", { "fg": s:blue })
+call s:h("typescriptIdentifierName", { "fg": s:blue })
 
 " XML
 call s:h("xmlAttrib", { "fg": s:yellow })
