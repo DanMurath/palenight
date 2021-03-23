@@ -450,7 +450,6 @@ call s:h("typescriptProp", { "fg": s:blue })
 call s:h("typescriptType", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptBlock", { "fg": s:blue })
 "typescriptTest
-call s:h("typescriptParens", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptDocParam", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptDocParamName", { "fg": s:blue, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptDocParamType", { "fg": s:blue, "gui": "italic", "cterm": "italic" })
