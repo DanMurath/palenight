@@ -453,10 +453,12 @@ call s:h("typescriptClassStatic", { "fg": s:purple, "gui": "italic", "cterm": "i
 call s:h("typescriptAliasKeyword", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptObjectLiteral", { "fg": s:blue, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptObjectLabel", { "fg": s:white })
-call s:h("afterIdentifier", { "fg": s:blue })
 call s:h("typescriptProp", { "fg": s:blue })
 call s:h("typescriptFuncCallArg", { "fg": s:blue })
 call s:h("typescriptEventFuncCallArg", { "fg": s:blue })
+call s:h("typescriptLabel", { "fg": s:green, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptIdentifier", { "fg": s:green, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptGlobalObjects", { "fg": s:green, "gui": "italic", "cterm": "italic" })
 
 
 " XML
