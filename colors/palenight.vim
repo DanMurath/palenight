@@ -445,14 +445,11 @@ call s:h("typescriptClassKeyword", { "fg": s:purple, "gui": "italic", "cterm": "
 call s:h("typescriptClassExtends", { "fg": s:red, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptInterfaceKeyword", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptClassStatic", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptAccessibilityModifier", { "fg": s:red, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptObjectLabel", { "fg": s:white })
-call s:h("typescriptProp", { "fg": s:blue })
-call s:h("typescriptType", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+"call s:h("typescriptProp", { "fg": s:blue })
 call s:h("typescriptBlock", { "fg": s:blue })
 "typescriptTest
-call s:h("typescriptDocParam", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
-call s:h("typescriptDocParamName", { "fg": s:blue, "gui": "italic", "cterm": "italic" })
-call s:h("typescriptDocParamType", { "fg": s:blue, "gui": "italic", "cterm": "italic" })
 
 
 " XML
