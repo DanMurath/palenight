@@ -452,8 +452,8 @@ call s:h("typescriptClassStatic", { "fg": s:purple, "gui": "italic", "cterm": "i
 call s:h("typescriptObjectLabel", { "fg": s:white })
 call s:h("typescriptProp", { "fg": s:blue })
 "typescriptTest
-call s:h("typescriptType", { "fg": s:yellow, "gui": "italic", "cterm": "italic" })
-call s:h("typescriptLabel", { "fg": s:yellow, "gui": "italic", "cterm": "italic" })
+"call s:h("typescriptType", { "fg": s:yellow, "gui": "italic", "cterm": "italic" })
+call s:h("typescriptLabel", { "fg": s:blue, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptBlock", { "fg": s:yellow, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptRef", { "fg": s:yellow, "gui": "italic", "cterm": "italic" })
 call s:h("typescriptSpecial", { "fg": s:yellow, "gui": "italic", "cterm": "italic" })
