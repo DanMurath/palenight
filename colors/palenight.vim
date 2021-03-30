@@ -122,6 +122,7 @@ call s:h("Macro", { "fg": s:purple }) " same as Define
 call s:h("PreCondit", { "fg": s:yellow }) " preprocessor #if, #else, #endif, etc.
 call s:h("Type", { "fg": s:yellow }) " int, long, char, etc.
 call s:h("StorageClass", { "fg": s:yellow }) " static, register, volatile, etc.
+call s:h("Class", { "fg": s:purple, "gui": "italic", "cterm": "italic" }) " Hopefully this works
 call s:h("Structure", { "fg": s:yellow }) " struct, union, enum, etc.
 call s:h("Typedef", { "fg": s:yellow }) " A typedef
 call s:h("Special", { "fg": s:blue }) " any special symbol
@@ -464,9 +465,9 @@ call s:h("phpClass", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("phpClasses", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("phpClassExtends", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("phpClassImplements", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
-call s:h("phpFunction", { "fg": s:blue })
+call s:h("phpFunction", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("phpType", { "fg": s:yellow })
-call s:h("phpKeyword", { "fg": s:blue })
+call s:h("phpKeyword", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
 call s:h("phpVarSelector", { "fg": s:white })
 call s:h("phpIdentifier", { "fg": s:white })
 call s:h("phpMethod", { "fg": s:blue })
