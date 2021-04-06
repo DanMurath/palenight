@@ -509,6 +509,17 @@ call s:h("SignifySignAdd", { "fg": s:green })
 call s:h("SignifySignChange", { "fg": s:yellow })
 call s:h("SignifySignDelete", { "fg": s:red })
 
+" LSP
+call s:h("LspDiagnosticsSignError", { "fg": s:red })
+call s:h("LspDiagnosticsSignWarning", { "fg": s:orange })
+call s:h("LspDiagnosticsSignInformation", { "fg": s:yellow })
+call s:h("LspDiagnosticsSignHint", { "fg": s:blue })
+
+call s:h("LspDiagnosticsVirtualTextError", { "fg": s:red })
+call s:h("LspDiagnosticsVirtualTextSignWarning", { "fg": s:orange })
+call s:h("LspDiagnosticsVirtualTextSignInformation", { "fg": s:yellow })
+call s:h("LspDiagnosticsVirtualTextSignHint", { "fg": s:blue })
+
 " neomake/neomake
 call s:h("NeomakeWarningSign", { "fg": s:yellow })
 call s:h("NeomakeErrorSign", { "fg": s:red })
