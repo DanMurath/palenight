@@ -511,12 +511,12 @@ call s:h("SignifySignDelete", { "fg": s:red })
 
 " LSP
 call s:h("LspDiagnosticsSignError", { "fg": s:red })
-call s:h("LspDiagnosticsSignWarning", { "fg": s:orange })
+call s:h("LspDiagnosticsSignWarning", { "fg": s:dark_yellow })
 call s:h("LspDiagnosticsSignInformation", { "fg": s:yellow })
 call s:h("LspDiagnosticsSignHint", { "fg": s:blue })
 
 call s:h("LspDiagnosticsVirtualTextError", { "fg": s:red })
-call s:h("LspDiagnosticsVirtualTextSignWarning", { "fg": s:orange })
+call s:h("LspDiagnosticsVirtualTextSignWarning", { "fg": s:dark_yellow })
 call s:h("LspDiagnosticsVirtualTextSignInformation", { "fg": s:yellow })
 call s:h("LspDiagnosticsVirtualTextSignHint", { "fg": s:blue })
 
